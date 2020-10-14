@@ -43,14 +43,15 @@ int main(){
     for(int i = 0; i < oneCounter; i++){
         output += "1+";
     }
+
     for(int i = 0; i < twoCounter; i++){
         output += "2+";
     }
+
     for(int i = 0; i < threeCounter; i++){
         output += "3+";
     }
 
     output.pop_back();
     cout << output;
-
 }     
